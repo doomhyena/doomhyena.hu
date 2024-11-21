@@ -1,30 +1,31 @@
-# doomhyena.hu - Hivatalos Web
-## Rólam
+### doomhyena.hu - Official Website
 
-Szia! Kincső vagyok, egy lelkes Szoftverfejlesztő és tesztelő vagyok, aki rajong a programozásért és a videójátékokért és új dolgok felfedezéséért. Szeretem a kreativitást és az innovációt összekapcsolni, legyen szó webfejlesztésről, játékfejlesztésről
+#### About Me
 
-## Weboldalam
+Hello! I'm Kincső, an enthusiastic Software Developer and Tester who is passionate about programming, video games, and exploring new things. I love combining creativity and innovation, whether it's web development, game development, or something else entirely.
 
-A weboldalamon megtalálhatod a legújabb projektjeimet, ötleteimet és blogbejegyzéseimet, amelyek a szakmai utamat és érdeklődési köreimet tükrözik. Folyamatosan dolgozom azon, hogy új és izgalmas tartalmakkal lássalak el!
+#### My Website
 
-### Amit kínálok:
+On my website, you can find my latest projects, ideas, and blog posts that reflect my professional journey and interests. I am constantly working to bring you new and exciting content!
 
-- **Projektjeim bemutatása**: Részletes leírások, forráskód és képek a legújabb munkáimról.
-- **Kapcsolat**: Szeretnél kapcsolatba lépni velem? A weboldalamon mindent megtalálsz!
+### What I Offer:
 
-## Nyelvek stack
+- **Showcase of My Projects:** Detailed descriptions, source code, and images of my latest work.
+- **Contact:** Would you like to get in touch with me? You can find everything you need on my website!
 
-A munkámban használt nyelvek:
+#### Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP, Python
-- **Adatbázisok**: MySQL 
-- **Egyéb eszközök**: Git
+The languages I use in my work:
 
-## Miért hoztam létre ezt az oldalt?
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP, Python
+- **Databases:** MySQL
+- **Other Tools:** Git
 
-Ezt az oldalt azért hoztam létre, hogy bemutassam a munkáimat, megoszthassam az ötleteimet és kapcsolatba lépjek hasonló gondolkodású emberekkel. Számomra a webfejlesztés és játékfejlesztés iránti szenvedélyem áll az első helyen, és remélem, hogy az oldalamon található tartalom másoknak is inspirációt nyújt.
+#### Why Did I Create This Website?
+
+I created this website to showcase my work, share my ideas, and connect with like-minded people. My passion for web development and game development is my top priority, and I hope the content on my site can inspire others as well.
 
 ---
 
-Köszönöm, hogy meglátogattad az oldalamat! 😊
+Thank you for visiting my website! 😊
