@@ -18,7 +18,7 @@ On my website, you can find my latest projects, ideas, and blog posts that refle
 The languages I use in my work:
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP, Python
+- **Backend:** PHP
 - **Databases:** MySQL
 - **Other Tools:** Git
 
