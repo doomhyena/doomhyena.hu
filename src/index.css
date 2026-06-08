@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+    --base: #11111b;
+    --surface0: #181825;
+    --surface1: #1e1e2e;
+    --surface2: #313244;
+    --text: #cdd6f4;
+    --subtext: #a6adc8;
+    --accent: #89b4fa;
+    --blue: #89b4fa;
+    --mauve: #89b4fa;
+    --pink: #89b4fa;
+}
+
+@layer base {
+    * {
+        box-sizing: border-box;
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--base);
+        color: var(--text);
+        font-family: "JetBrains Mono", monospace;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body,
+    #root {
+        min-height: 100vh;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    ::selection {
+        background: rgba(137, 180, 250, 0.25);
+        color: #ffffff;
+    }
+}
+
+@layer components {
+    .panel {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1rem;
+        background: var(--surface0);
+    }
+
+    .terminal-shell {
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1rem;
+        background: var(--surface0);
+    }
+
+    .terminal-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: var(--surface1);
+        padding: 0.875rem 1rem;
+    }
+
+    .chip {
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9999px;
+        background: var(--surface1);
+        padding: 0.45rem 0.85rem;
+        color: var(--subtext);
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+}
