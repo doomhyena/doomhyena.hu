@@ -1,4 +1,4 @@
-import { ArrowUpRight, GitBranch, Mail, MessageCircle } from "lucide-react";
+import { ArrowUpRight, GitBranch, Link, Mail, MessageCircle } from "lucide-react";
 
 import type { ContactEntry } from "../../types/portfolio";
 import { TerminalWindow } from "./TerminalWindow";
@@ -7,6 +7,7 @@ const iconMap = {
   github: GitBranch,
   discord: MessageCircle,
   email: Mail,
+  link: Link,
 };
 
 interface ContactTerminalProps {
