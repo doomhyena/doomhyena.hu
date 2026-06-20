@@ -30,6 +30,7 @@ export const heroData: HeroData = {
       href: "https://discord.com/users/864583234158460938",
       icon: "discord",
     },
+    { label: "Yoursite", href: "https://yoursit.ee/doomhyena", icon: "link" },
     { label: "Email", href: "mailto:contact@doomhyena.hu", icon: "email" },
   ],
 };
@@ -42,8 +43,53 @@ export const aboutIntroParagraphs = [
 export const aboutBackgroundParagraphs = [
   "I currently live in Budapest, Hungary.",
   "Right now I am a student at Bláthy Ottó Titusz Information Technology Technical School, where I study IT Systems and Applications Operations.",
-  "I also studied at Schola Europa Academy, where I learned Software Development and Testing.",
   "In the future, I plan to continue my studies at Óbudai University in the Computer Engineering program.",
+  "I also studied at Schola Europa Academy, where I learned Software Development and Testing.",
+];
+
+export const education = [
+  {
+    name: "Schola Europa Akadémia Technikum, Gimnázium és Alapfokú Művészeti Iskola",
+    href: "https://scholaeu.hu/",
+    date: "2024.09.01. – 2026.05.29.",
+    description: `
+      <p>I completed the <strong>Software Developer and Tester</strong> program at Schola Europa. There I learned to design, implement and test both web and desktop applications, and I gained hands-on experience in database design and management.</p>
+
+      <p>We approached software development as a full product lifecycle: working in teams, following development workflows, and using industry tools like <code class="rounded bg-[var(--surface0)] px-1.5">GitHub</code>. Instead of fearing AI, we learned to use it as a practical tool to improve our productivity.</p>
+
+      <p>Technically, I worked with and learned:</p>
+      <ul class="list-disc ml-6 space-y-1">
+        <li><code class="rounded bg-[var(--surface0)] px-1.5">SQL</code> database design and management (including <code class="rounded bg-[var(--surface0)] px-1.5">MySQL</code>).</li>
+        <li>Building responsive, dynamic websites using <code class="rounded bg-[var(--surface0)] px-1.5">HTML5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">CSS3</code> and <code class="rounded bg-[var(--surface0)] px-1.5">Bootstrap 5</code>; programming with <code class="rounded bg-[var(--surface0)] px-1.5">JavaScript</code> and <code class="rounded bg-[var(--surface0)] px-1.5">PHP</code>.</li>
+        <li>Developing desktop applications in <code class="rounded bg-[var(--surface0)] px-1.5">C#</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Java</code> and <code class="rounded bg-[var(--surface0)] px-1.5">Python</code>.</li>
+        <li>Practical networking fundamentals and basic network setup.</li>
+        <li>Theory and hands-on practice of software testing.</li>
+        <li>Core IT concepts and an introduction to software licensing (<code class="rounded bg-[var(--surface0)] px-1.5">GPL</code>, <code class="rounded bg-[var(--surface0)] px-1.5">LGPL</code>, <code class="rounded bg-[var(--surface0)] px-1.5">AGPL</code>).</li>
+        <li>Technical English for software development and interviewing.</li>
+      </ul>
+
+      <p>Beyond technical skills, the program helped me develop better teamwork, communication, and project workflows — all essential when working in real development teams or launching projects independently.</p>
+
+      <h4 class="mt-4">Key modules</h4>
+      <ul class="list-disc ml-6 space-y-1">
+        <li>Programming theory</li>
+        <li>Desktop applications: <code class="rounded bg-[var(--surface0)] px-1.5">Java</code>, <code class="rounded bg-[var(--surface0)] px-1.5">C#</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Godot</code></li>
+        <li>Web development (frontend & backend)</li>
+        <li>Frontend: <code class="rounded bg-[var(--surface0)] px-1.5">HTML5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">CSS3</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Bootstrap 5</code></li>
+        <li>Backend: <code class="rounded bg-[var(--surface0)] px-1.5">JavaScript</code>, <code class="rounded bg-[var(--surface0)] px-1.5">PHP</code></li>
+        <li>CMS systems: <code class="rounded bg-[var(--surface0)] px-1.5">WordPress</code></li>
+        <li>Database management</li>
+        <li>IT fundamentals</li>
+      </ul>
+    `,
+  },
+  {
+    name: "Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum",
+    href: "https://blathy.info/",
+    date: "since 2025.11.14.",
+    description:
+      "I am currently studying IT Systems and Application Operations Technician here.",
+  },
 ];
 
 export const technologyGroups: TechnologyGroup[] = [
@@ -73,22 +119,12 @@ export const technologyGroups: TechnologyGroup[] = [
       "Networking",
     ],
   },
-  {
-    title: "DevOps & Tools",
-    items: [
-      "Git",
-      "GitHub",
-      "Docker",
-      "Packet Tracer",
-      "VS Code",
-      "IntelliJ IDEA",
-    ],
-  },
 ];
 
 export const projects: Project[] = [
   {
     title: "Jegyzetár",
+    href: "https://github.com/NoteForge-Development/jegyzetar.eu",
     description:
       "A note-sharing website for students. It helps students upload, organize, find, and discuss study notes in one place.",
     responsibilities: [
@@ -108,6 +144,7 @@ export const projects: Project[] = [
   },
   {
     title: "AutoOrganizer",
+    href: "https://github.com/doomhyena/AutoOrganizer",
     description:
       "A JavaFX desktop app for sorting files, renaming them, making backups, and finding duplicates.",
     responsibilities: [
@@ -134,6 +171,7 @@ export const projects: Project[] = [
   },
   {
     title: "MÁVTracker",
+    href: "https://github.com/doomhyena/MAVTracker",
     description:
       "A web app that shows MÁV train locations, delay, speed, and schedule data on a map.",
     responsibilities: [
@@ -160,6 +198,7 @@ export const projects: Project[] = [
   },
   {
     title: "SimpleWeather",
+    href: "https://github.com/doomhyena/simpleweather",
     description:
       "A weather app built with React. It lets users search for a city and save recent searches.",
     responsibilities: [
@@ -185,6 +224,7 @@ export const projects: Project[] = [
   },
   {
     title: "meseijaszok",
+    href: "https://github.com/doomhyena/meseijaszok",
     description:
       "An information website made as a portfolio project. It presents a sports group with a clear layout and responsive pages.",
     responsibilities: [
@@ -204,6 +244,7 @@ export const projects: Project[] = [
   },
   {
     title: "RangerBot",
+    href: "https://rangerbot.hu/",
     description:
       "A Discord bot project that was later rewritten from C# to Python.",
     responsibilities: [
@@ -219,6 +260,26 @@ export const projects: Project[] = [
       { label: "Type", value: "Discord bot" },
       { label: "Focus", value: "Rewrite" },
       { label: "Context", value: "Public use" },
+    ],
+  },
+  {
+    title: "Toll",
+    href: "https://github.com/doomhyena/toll",
+    description:
+      "Toll is an unofficial desktop e-Kréta companion for high school students, built with Wails v2 using a React/TypeScript frontend and Go backend.",
+    responsibilities: [
+      "Kréta login with institution search and token-based session management",
+      "Multiple account handling with saved e-Kréta profiles",
+      "Weekly timetable view with lesson detail modal",
+      "Subject-based grade overview, weighted averages, and term highlights",
+      "Homework filtering by deadline, status, and subject",
+      "Offline notes, task notebook, and local profile settings",
+    ],
+    technologies: ["Wails v2", "Go", "React", "TypeScript", "Vite", "e-Kréta MOBILE API"],
+    stats: [
+      { label: "Type", value: "Desktop app" },
+      { label: "Focus", value: "e-Kréta companion" },
+      { label: "Platform", value: "Windows, macOS, Linux" },
     ],
   },
 ];

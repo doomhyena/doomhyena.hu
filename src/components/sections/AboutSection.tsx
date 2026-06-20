@@ -3,6 +3,7 @@ import { CheckCircle2 } from "lucide-react";
 import {
   aboutBackgroundParagraphs,
   aboutIntroParagraphs,
+  education,
 } from "../../data/portfolio";
 import { Section } from "../layout/Section";
 import { TerminalWindow } from "../ui/TerminalWindow";
@@ -34,42 +35,25 @@ export function AboutSection() {
             </p>
             <div className="mt-4 space-y-4 text-base leading-8 text-[var(--text)]">
               <p>{aboutBackgroundParagraphs[0]}</p>
-              <p>
-                I am currently a student at{" "}
-                <a
-                  href="https://blathy.bmszc.hu/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-[var(--accent)] underline underline-offset-4"
-                >
-                  Bláthy Ottó Titusz Information Technology Technical School
-                </a>
-                . I study IT Systems and Applications Operations.
-              </p>
-              <p>
-                I was also a student at{" "}
-                <a
-                  href="https://scholaeu.hu/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-[var(--accent)] underline underline-offset-4"
-                >
-                  Schola Europa Academy
-                </a>
-                . There I studied Software Development and Testing.
-              </p>
-              <p>
-                In the future I plan to continue my studies at{" "}
-                <a
-                  href="https://uni-obuda.hu/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-[var(--accent)] underline underline-offset-4"
-                >
-                  Óbudai University
-                </a>
-                , in the Computer Engineering program.
-              </p>
+              <div className="space-y-4">
+                {education.map((edu) => (
+                  <div key={edu.name}>
+                    <p>
+                      <a
+                        href={edu.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-[var(--accent)] underline underline-offset-4"
+                      >
+                        {edu.name}
+                      </a>
+                      {' '}
+                      — <span dangerouslySetInnerHTML={{ __html: edu.date }} />
+                    </p>
+                    <div className="mt-2 text-[var(--text)]" dangerouslySetInnerHTML={{ __html: edu.description }} />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 

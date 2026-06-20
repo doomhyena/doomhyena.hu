@@ -1,4 +1,4 @@
-export type SocialIcon = "github" | "discord" | "email";
+export type SocialIcon = "github" | "discord" | "email" | "link";
 
 export interface NavItem {
   id: string;
@@ -32,6 +32,7 @@ export interface ProjectStat {
 export interface Project {
   title: string;
   description: string;
+  href?: string;
   responsibilities: string[];
   technologies: string[];
   stats: ProjectStat[];

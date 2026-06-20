@@ -1,4 +1,4 @@
-import { ArrowUpRight, GitBranch, Mail, MessageCircle } from "lucide-react";
+import { ArrowUpRight, GitBranch, Link, Mail, MessageCircle } from "lucide-react";
 
 import type { SocialLink } from "../../types/portfolio";
 
@@ -6,6 +6,7 @@ const iconMap = {
   github: GitBranch,
   discord: MessageCircle,
   email: Mail,
+  link: Link,
 };
 
 interface SocialButtonProps {

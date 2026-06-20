@@ -30,7 +30,18 @@ export function ProjectCard({ project }: ProjectCardProps) {
             Project
           </span>
           <h3 className="mt-1 break-words text-2xl font-semibold text-white">
-            {project.title}
+            {project.href ? (
+              <a
+                href={project.href}
+                target="_blank"
+                rel="noreferrer"
+                className="text-[var(--accent)] underline decoration-[var(--accent)] decoration-2 underline-offset-4 transition-colors hover:text-[var(--accent)]"
+              >
+                {project.title}
+              </a>
+            ) : (
+              project.title
+            )}
           </h3>
           <p className="mt-4 text-base leading-7 text-[var(--subtext)]">
             {project.description}
