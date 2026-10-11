@@ -5,7 +5,6 @@ import { Container } from "./Container";
 interface NavbarProps {
   items: NavItem[];
   brandText: string;
-  logoAlt: string;
   primaryNavAriaLabel: string;
   openMenuAriaLabel: string;
   closeMenuAriaLabel: string;
@@ -14,7 +13,6 @@ interface NavbarProps {
 export function Navbar({
   items,
   brandText,
-  logoAlt,
   primaryNavAriaLabel,
   openMenuAriaLabel,
   closeMenuAriaLabel,

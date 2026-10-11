@@ -22,7 +22,6 @@ function AppInner() {
       <Navbar
         items={t.nav}
         brandText={t.navbar.brandText}
-        logoAlt={t.navbar.logoAlt}
         primaryNavAriaLabel={t.navbar.primaryNavAriaLabel}
         openMenuAriaLabel={t.navbar.openMenuAriaLabel}
         closeMenuAriaLabel={t.navbar.closeMenuAriaLabel}
