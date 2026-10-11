@@ -29,13 +29,6 @@ export function Navbar({
             href="#hero"
             className="inline-flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.2em] text-white"
           >
-            <span className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-[var(--surface0)]">
-              <img
-                src="/logo.png"
-                alt={logoAlt}
-                className="h-full w-full object-cover"
-              />
-            </span>
             {brandText}
           </a>
 

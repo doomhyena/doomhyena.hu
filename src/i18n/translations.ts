@@ -61,11 +61,11 @@ export const translations = {
         focus: '$ focus',
       },
       badge: 'About',
-      heading: 'Software Developer Portfolio',
+      heading: 'Software Developer',
       description:
         'I build web and desktop applications, with hands-on work in Linux systems and networking. You can view projects, source code, and contact options below.',
       listItems: [
-        'Main stack: Java, TypeScript, React, PHP, Go',
+        'Main stack: TypeScript, React, C#, ASP.net',
         'Focus areas: product development, system-level thinking, and reliability',
         'Open for junior software development opportunities',
       ],
