@@ -30,7 +30,6 @@ export const translations = {
   en: {
     navbar: {
       brandText: 'doomhyena.hu',
-      logoAlt: 'doomhyena logo',
       primaryNavAriaLabel: 'Primary navigation',
       openMenuAriaLabel: 'Open menu',
       closeMenuAriaLabel: 'Close menu',
@@ -47,7 +46,7 @@ export const translations = {
     ],
     hero: {
       name: 'doomhyena',
-      title: 'Software Developer • Systems Enthusiast • Computer Engineering Student',
+      title: 'Software Developer • System Administrator • Computer Engineering Student',
       statusLines: [
         'I build maintainable web and desktop applications.',
         'I work with Linux systems and networking foundations.',
@@ -168,7 +167,7 @@ export const translations = {
       items: [
         {
           title: 'Jegyzettár',
-          href: 'https://github.com/NoteForge-Development/jegyzetar.eu',
+          href: 'https://github.com/doomhyena/jegyzetar.eu-src',
           description:
             'Student-focused note-sharing platform where I worked on the frontend and key user-facing workflows.',
           responsibilities: [
@@ -255,17 +254,34 @@ export const translations = {
           title: 'RangerBot',
           href: 'https://rangerbot.hu/',
           description:
-            'I work on a public Discord bot that I rewrote from C# to Python.',
+            'We work on a public Discord bot that we rewrote from C# to Python.',
           responsibilities: [
-            'Maintained and expanded a public Discord bot codebase',
-            'Rewrote and restructured the project architecture',
-            'Migrated the implementation from C# to Python',
+            'Maintained and expanded a public Discord bot codebase as a team',
+            'Rewrote and restructured the project architecture together',
+            'Migrated the implementation from C# to Python as a team',
           ],
           technologies: ['Python', 'Discord API', 'C# (legacy)'],
           stats: [
             { label: 'Type', value: 'Discord bot' },
             { label: 'Focus', value: 'Rewrite' },
             { label: 'Context', value: 'Public use' },
+          ],
+        },
+        {
+          title: 'JHKBot',
+          href: 'https://github.com/doomhyena/JHKBot',
+          description:
+            'The official Discord bot of Óbuda University\'s Game Development Student Circle, developed and maintained by me.',
+          responsibilities: [
+            'Developed and maintained the student circle\'s official Discord bot',
+            'Written in Python',
+            'Improved the project structure and maintainability',
+          ],
+          technologies: ['Python', 'Discord API'],
+          stats: [
+            { label: 'Type', value: 'Discord bot' },
+            { label: 'Role', value: 'Developer & Maintainer' },
+            { label: 'Focus', value: 'Migration & Development' },
           ],
         },
         {
@@ -366,7 +382,7 @@ export const translations = {
     ],
     hero: {
       name: 'doomhyena',
-      title: 'Szoftverfejlesztő • Rendszerüzemeltetési érdeklődéssel • Mérnökinformatikus hallgató',
+      title: 'Szoftverfejlesztő • Rendszergazda • Mérnökinformatikus hallgató',
       statusLines: [
         'Karbantartható webes és asztali alkalmazásokat fejlesztek.',
         'Linux rendszerekkel és hálózati alapokkal is aktívan foglalkozom.',
@@ -487,7 +503,7 @@ export const translations = {
       items: [
         {
           title: 'Jegyzettár',
-          href: 'https://github.com/NoteForge-Development/jegyzetar.eu',
+          href: 'https://github.com/doomhyena/jegyzetar.eu-src',
           description:
             'Diákoknak szóló jegyzetmegosztó platform, ahol főként a frontend és a felhasználói folyamatok fejlesztésén dolgoztam.',
           responsibilities: [
@@ -574,17 +590,34 @@ export const translations = {
           title: 'RangerBot',
           href: 'https://rangerbot.hu/',
           description:
-            'Nyilvános Discord boton dolgozom, amelyet C#-ból Pythonra írtam át.',
+            'Nyilvános Discord boton dolgozunk, amelyet C#-ból Pythonra írtunk át.',
           responsibilities: [
-            'Nyilvános Discord botot fejlesztek és karbantartok',
-            'A teljes kódbázist átírtam és újrastrukturáltam',
-            'A projektet C#-ról Pythonra migráltam',
+            'Nyilvános Discord botot fejlesztünk és karbantartunk',
+            'A teljes kódbázist átírtuk és újrastrukturáltuk',
+            'A projektet C#-ról Pythonra migráltuk',
           ],
           technologies: ['Python', 'Discord API', 'C# (legacy)'],
           stats: [
             { label: 'Típus', value: 'Discord bot' },
             { label: 'Fókusz', value: 'Átírás' },
             { label: 'Kontextus', value: 'Nyilvános használat' },
+          ],
+        },
+        {
+          title: 'JHKBot',
+          href: 'https://github.com/doomhyena/JHKBot',
+          description:
+            'Az Óbudai Egyetem Játékfejlesztő Hallgatói Körének hivatalos Discord botja, amelyet én fejlesztek és tartok karban.',
+          responsibilities: [
+            'Fejlesztem és karbantartom a hallgatói kör hivatalos Discord botját',
+            'Pythonban íródott',
+            'A projekt struktúráját és karbantarthatóságát fejlesztettem',
+          ],
+          technologies: ['Python', 'Discord API'],
+          stats: [
+            { label: 'Típus', value: 'Discord bot' },
+            { label: 'Szerepkör', value: 'Fejlesztő & Karbantartó' },
+            { label: 'Fókusz', value: 'Migráció & Fejlesztés' },
           ],
         },
         {
