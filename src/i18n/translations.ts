@@ -6,7 +6,7 @@ const scholaDescEn = `
   <p>Key competencies I gained:</p>
   <ul class="list-disc ml-6 space-y-1">
     <li><code class="rounded bg-[var(--surface0)] px-1.5">SQL</code>-based database design and management, including <code class="rounded bg-[var(--surface0)] px-1.5">MySQL</code>.</li>
-    <li>Responsive web development with <code class="rounded bg-[var(--surface0)] px-1.5">HTML5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">CSS3</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Bootstrap 5</code>, plus backend work in <code class="rounded bg-[var(--surface0)] px-1.5">JavaScript</code> and <code class="rounded bg-[var(--surface0)] px-1.5">PHP</code>.</li>
+    <li>Responsive web development with <code class="rounded bg-[var(--surface0)] px-1.5">HTML5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">CSS3</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Bootstrap 5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">JavaScript</code>, plus backend work in <code class="rounded bg-[var(--surface0)] px-1.5">ASP.net</code> and <code class="rounded bg-[var(--surface0)] px-1.5">PHP</code>.</li>
     <li>Desktop application development in <code class="rounded bg-[var(--surface0)] px-1.5">C#</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Java</code>, and <code class="rounded bg-[var(--surface0)] px-1.5">Python</code>.</li>
     <li>Networking fundamentals, software testing practice, and core IT concepts.</li>
     <li>Software licensing basics (<code class="rounded bg-[var(--surface0)] px-1.5">GPL</code>, <code class="rounded bg-[var(--surface0)] px-1.5">LGPL</code>, <code class="rounded bg-[var(--surface0)] px-1.5">AGPL</code>) and technical English.</li>
@@ -19,7 +19,7 @@ const scholaDescHu = `
   <p>A képzés során megszerzett főbb kompetenciáim:</p>
   <ul class="list-disc ml-6 space-y-1">
     <li><code class="rounded bg-[var(--surface0)] px-1.5">SQL</code> alapú adatbázistervezés és -kezelés, többek között <code class="rounded bg-[var(--surface0)] px-1.5">MySQL</code> használatával.</li>
-    <li>Reszponzív webfejlesztés <code class="rounded bg-[var(--surface0)] px-1.5">HTML5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">CSS3</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Bootstrap 5</code> technológiákkal, valamint backend munka <code class="rounded bg-[var(--surface0)] px-1.5">JavaScript</code> és <code class="rounded bg-[var(--surface0)] px-1.5">PHP</code> nyelveken.</li>
+    <li>Reszponzív webfejlesztés <code class="rounded bg-[var(--surface0)] px-1.5">HTML5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">CSS3</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Bootstrap 5</code>, <code class="rounded bg-[var(--surface0)] px-1.5">JavaScript</code> technológiákkal, valamint backend munka <code class="rounded bg-[var(--surface0)] px-1.5">ASP.net</code> és <code class="rounded bg-[var(--surface0)] px-1.5">PHP</code> nyelveken.</li>
     <li>Asztali alkalmazásfejlesztés <code class="rounded bg-[var(--surface0)] px-1.5">C#</code>, <code class="rounded bg-[var(--surface0)] px-1.5">Java</code> és <code class="rounded bg-[var(--surface0)] px-1.5">Python</code> használatával.</li>
     <li>Hálózati alapismeretek, szoftvertesztelési gyakorlat és alapvető informatikai tudás.</li>
     <li>Szoftverlicencelési alapismeretek (<code class="rounded bg-[var(--surface0)] px-1.5">GPL</code>, <code class="rounded bg-[var(--surface0)] px-1.5">LGPL</code>, <code class="rounded bg-[var(--surface0)] px-1.5">AGPL</code>) és technikai angol.</li>
